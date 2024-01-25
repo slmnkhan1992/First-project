@@ -1,0 +1,483 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+height: 50px;
+width: 80%;
+color: white;
+display: flex;
+align-items:center;
+justify-content: space-evenly ;
+background-color: rgba(22, 22, 23, -8);
+list-style-type: none;
+}
+
+#extradiv {
+    background-color: rgba(22, 22, 23, .8);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navbar :hover{
+    border: 2px solid white ;
+    cursor: pointer;
+    padding: 5px;    
+}
+#hero {
+    background-image: url(./Asset/hero_apple_vision_pro__e8407ehady6i_mediumtall.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: -21px;
+    
+
+}
+#datahero{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#firstline{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#welcome{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#version{
+    color: grey;
+    font-size: 18px;
+}
+
+#heroancher{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#heroancher :hover{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 25px;
+    font-display: underline;
+    color: skyblue;
+
+}
+
+.iphone15promax{
+    background-image: url(./Asset/Iphone15promax.png);
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#dataiphone15promax{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#firstlineiphone15promax{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#secondlineiphonepromax15pro{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#iphoneancher{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: skyblue;
+}
+
+#iphoneancher :hover{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 25px;
+    font-display: underline;
+    color: skyblue
+
+}
+
+.iphone15pro2{
+    background-image: url(./Asset/iphone15pro2.png);
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#dataiphone15pro2{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#firstlineiphone15pro2{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#secondlineiphon15pro2{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#iphone2ancher{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: skyblue;
+}
+
+#iphone2ancher :hover{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 25px;
+    font-display: underline;
+    color: navy
+
+}
+#watch1{
+    background-image: url(./Asset/watch1.jpg);
+    height: 80vh;
+    width: 49%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+#datawatch1{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#firstlinewatch1{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+h1 {
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#watch1ancher{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: skyblue;
+}
+
+#watch1ancher :hover{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 25px;
+    font-display: underline;
+    color: red  
+}
+.watch{
+    display: flex;
+    justify-content: space-around;
+}
+
+#watch2{
+    background-image: url(./Asset/watch2.jpeg);
+    height: 80vh;
+    width: 49%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+
+}
+
+#datawatch2{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#firstlinewatch2{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#series{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#watch2ancher{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: skyblue;
+}
+
+#watch2ancher :hover{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 25px;
+    font-display: underline;
+    color: red}
+
+    /* sdfsdf */
+
+    #watch3{
+        background-image: url(./Asset/watch3.jpg);
+        height: 80vh;
+        width: 49%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        color: black
+    }
+    #datawatch3{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    #firstlinewatch3{
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    
+    #nextlevel {
+        font-size: 25px;
+
+    }
+    
+    #watch3ancher{
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: skyblue;
+    }
+    
+    #watch3ancher :hover{
+        cursor: pointer;
+        padding: 10px;
+        font-size: 25px;
+        font-display: underline;
+        color: red  
+    }
+    .sec3{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #watch4{
+        background-image: url(./Asset/watch4.jpg);
+        height: 80vh;
+        width: 49%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        color: black
+    
+    }
+    
+    #datawatch4{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    #firstlinewatch4{
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+    }
+    
+    #mindblowing{
+        font-size: 26px;
+    }
+
+
+    #watch4ancher{
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: skyblue;
+    }
+    
+    #watch4ancher :hover{
+        cursor: pointer;
+        padding: 10px;
+        font-size: 25px;
+        font-display: underline;
+        color: red}
+    /* fsdfsdfsd */
+
+    #card{
+        background-image: url(./Asset/card.jpg);
+        height: 80vh;
+        width: 49%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        color: black
+    }
+    #datacard{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    #firstlinecard{
+        font-size: 30px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        
+    }
+    
+    #cashback{
+        font-size: 24px;
+
+
+    }
+    
+    #cardancher{
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: skyblue;
+    }
+    
+    #cardancher :hover{
+        cursor: pointer;
+        padding: 10px;
+        font-size: 25px;
+        font-display: underline;
+        color: red  
+    }
+    .sec4{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #trade{
+        background-image: url(./Asset/trade.jpg);
+        height: 80vh;
+        width: 49%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        color: black;
+    
+    }
+    
+    #datatrade{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    #firstlinetrade{
+        font-size: 30px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+    }
+    
+    #series{
+        color: red;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+    #tradeancher{
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: skyblue;
+    }
+    
+    #tradeancher :hover{
+        cursor: pointer;
+        padding: 10px;
+        font-size: 25px;
+        font-display: underline;
+        color: red}
+    
+        #parent{
+            background-color: rgb(250, 250, 246);
+            height: 150vh;
+            width: 100%;
+            list-style-type: none;
+            color: rgb(129, 129, 125);
+            display: flex;
+            justify-content: center;
+            font-size: 15px;
+        }
+        #child{
+            width: 70%;
+            height: 150vh;
+        }
+
+        table{
+            display: flex;
+            justify-content: center;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
